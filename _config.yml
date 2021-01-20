@@ -16,8 +16,8 @@
 title: "Hi, I'm Tiffany Yu!"
 email: 'tiffanyy9968@gmail.com'
 description: "I'm a graduating senior at CMU, studying computer science with a minor in machine learning. I'm passionate about applied AI/ML."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://tyu91.github.io" # the base hostname & protocol for your site, e.g. https://example.com
+# baseurl: "/tyu91" # the subpath of your site, e.g. /blog
+url: "http://tyu91.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: 'hippothetiffo'
 linkedin_username: 'tyu91'
 github_username: 'tyu91'
