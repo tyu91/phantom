@@ -7,45 +7,52 @@
       <div class="hero-container">
 
         <div class="hero-content">
+          <div class="row">
+            <div class="col-sm-4" text-align=center>
+              <img class="img-propic" src="{{ site.baseurl }}/img/tiffany-yu-propic.jpg">
+            </div>
+            <div class="col-sm-8">
+              {% if site.title != '' %}
+                <h1 class="text-center">{{site.title}}</h1>
+              {% endif %}
 
-          {% if site.title != '' %}
-          <h1 class="text-center">{{site.title}}</h1>
-          {% endif %}
+              <!-- {% if site.description != '' or site.enable_contact == true %}
+                <p class="text-center">
+                  {% if site.description != '' %}
+                    {{site.description}}
+                  {% endif %}
 
-          {% if site.description != '' or site.enable_contact == true %}
-          <p class="text-center">
-            {% if site.description != '' %}
-            {{site.description}}
-            {% endif %}
+                  {% if site.enable_contact == true %}
+                    {% include contact.html %}
+                    {% include contact-modal.html %}
+                  {% endif %}
+                </p>
+              {% endif %} -->
 
-            {% if site.enable_contact == true %}
-            {% include contact.html %}
-            {% include contact-modal.html %}
-            {% endif %}
-          </p>
-          {% endif %}
+              <p class="text-center">
+                I'm a graduating senior at CMU, studying computer science with a minor in machine learning. Outside of software engineering, I love to read and play the piano, and I'm also invested in STEM and robotics outreach. Feel free to check out some of my <a href="/projects">projects</a>, <a href="/misc">interests</a>, or <a href="{{ site.baseurl }}/resources/tiffany-yu-resume.pdf" target="_blank">resume</a>!
+              </p>
 
-          <div class="hero-buttons">
+              <div class="hero-buttons">
 
-            {% if site.twitter_username != '' %}
-              <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>Twitter</button></a>
-            {% endif %}
-            {% if site.github_username != '' %}
-              <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-github fa-lg"></i>Github</button></a>
-            {% endif %}
-            {% if site.medium_username != '' %}
-              <a href="https://{{ site.medium_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-medium fa-lg"></i>Medium</button></a>
-            {% endif %}
+                {% if site.twitter_username != '' %}
+                  <a href="https://linkedin.com/in/{{ site.linkedin_username }}"><button class="btn btn-default"><i class="fa fa-linkedin"></i>LinkedIn</button></a>
+                {% endif %}
+                {% if site.github_username != '' %}
+                  <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-default"><i class="fa fa-github"></i>Github</button></a>
+                {% endif %}
+                {% if site.medium_username != '' %}
+                  <a href="https://{{ site.medium_username }}"><button class="btn btn-default"><i class="fa fa-medium fa-lg"></i>Medium</button></a>
+                {% endif %}
+                <a href="{{ site.baseurl }}/resources/tiffany-yu-resume.pdf" target="_blank"><button class="btn btn-default"><i class="fa fa-file"></i>Resume</button></a>
 
+              </div>
+            </div>
           </div>
 
         </div>
 
       </div>
-
-      <a class="section-jump text-center" href="#portfolio">
-        <i class="fa fa-angle-down fa-3x"></i>
-      </a>
 
     </div>
 
