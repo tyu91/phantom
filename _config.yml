@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Hi, I'm Tiffany Yu!"
-email: 'jami0821@gmail.com'
+email: 'tiffanyy9968@gmail.com'
 description: "I'm a graduating senior at CMU, studying computer science with a minor in machine learning. I'm passionate about applied AI/ML."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jamigibbs.github.io/phantom" # the base hostname & protocol for your site, e.g. https://example.com
+url: "tyu91.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: 'hippothetiffo'
 linkedin_username: 'tyu91'
 github_username: 'tyu91'
@@ -26,10 +26,7 @@ permalink: '/:title/'
 
 # Build settings
 markdown: kramdown
-# theme: phantom # Uncomment once published to RubyGems
-plugins:
-  - jekyll-paginate-v2
-
+theme: phantom # Uncomment once published to RubyGems
 collections:
   portfolio:
   misc:
