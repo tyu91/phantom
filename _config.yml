@@ -17,7 +17,7 @@ title: "Hi, I'm Tiffany Yu!"
 email: 'tiffanyy9968@gmail.com'
 description: "I'm a graduating senior at CMU, studying computer science with a minor in machine learning. I'm passionate about applied AI/ML."
 # baseurl: "/tyu91" # the subpath of your site, e.g. /blog
-url: "http://tyu91.github.io" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://tyu91.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: 'hippothetiffo'
 linkedin_username: 'tyu91'
 github_username: 'tyu91'
@@ -92,7 +92,7 @@ pagination:
 ############################################################
 
 ### Phantom settings
-footer_text: ''
+footer_text: '© 2021 Tiffany Yu'
 admin_name: 'Tiffany Yu'
 google_analytics: "UA-9999999-99" # Update with your own tracking ID
 enable_contact: false
