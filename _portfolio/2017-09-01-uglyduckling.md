@@ -5,7 +5,7 @@ title: 'Ugly Duckling'
 date: 2017-09-01 12:00:00
 categories: development
 tags:
-featured_image: '/img/portfolio/uglyduckling.jpg'
+featured_video: 'https://www.youtube.com/embed/KJa-R7mVBbU'
 project_link: 'https://devpost.com/software/ugly-duckling'
 button_icon: 'github'
 button_text: 'Visit Project'
