@@ -94,7 +94,7 @@ workflows:
           filters:
             branches:
               ignore:
-                - master
+                - circleci-project-setup
       - bundle_dependencies:
           requires:
             - checkout_code
